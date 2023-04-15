@@ -1,0 +1,135 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.hero {
+    background-image: url("../img/georgia-view-from-the-sky.jpg");
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+    .hero h1 {
+        font-size: 60px;
+        margin: 0;
+        color: #00ba98
+    }
+
+    .hero p {
+        font-size: 24px;
+        margin: 20px 0;
+        color: #015c57
+    }
+
+.button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+    .button:hover {
+        background-color: #333;
+        color: #fff;
+    }
+
+.featured-places {
+    padding: 50px;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
+    margin-top: 50px;
+}
+
+.grid-item {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+    .grid-item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .grid-item h3 {
+        font-size: 24px;
+        margin: 20px;
+    }
+
+    .grid-item p {
+        font-size: 16px;
+        margin: 20px;
+    }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+    footer p {
+        margin: 0;
+        font-size: 14px;
+    }
+
