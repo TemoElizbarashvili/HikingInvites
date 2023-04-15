@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using HikingInvites.Models;
 namespace PartyInvites.Controllers
 {
     public class HomeController : Controller
@@ -8,9 +9,17 @@ namespace PartyInvites.Controllers
             return View();
         }
 
+        [HttpGet]
         public ViewResult RsvpForm()
         {
             return View();
+        }
+
+        [HttpPost]
+        public ViewResult RsvpForm(UserResponse userResponse)
+        {
+            Repository.AddResponse(userResponse);
+            return View("Thanks", userResponse);
         }
 
     }
