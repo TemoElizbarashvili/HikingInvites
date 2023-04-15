@@ -1,0 +1,35 @@
+﻿@model HikingInvites.Models.UserResponse
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>RsvpForm</title>
+    <link rel="stylesheet" type="text/css" href="~/css/site.css">
+</head>
+<body>
+    <form asp-action="RsvpForm" method="post">
+        <label asp-for="Name">Name:</label>
+        <input asp-for="Name" required>
+
+        <label asp-for="Email">Email:</label>
+        <input asp-for="Email" required>
+
+        <label asp-for="Phone">Phone:</label>
+        <input asp-for="Phone" required>
+
+        <label sp-for="Location">Location:</label>
+        <select sp-for="Location" required>
+            <option value="">Select location</option>
+            <option value="Kazbegi">Kazbegi</option>
+            <option value="Svaneti">Svaneti</option>
+            <option value="Vardzia">Vardzia</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
