@@ -1,0 +1,21 @@
+﻿@model HikingInvites.Models.UserResponse
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thanks</title>
+    <link rel="stylesheet" href="~/css/Thanks.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Thank You, @Model.Name!</h1>
+        <p>Your Request has been recived.</p>
+        <p>Click <a asp-action="ListResponses">here</a> to see who is coming to hike!</p>
+    </div>
+</body>
+</html>

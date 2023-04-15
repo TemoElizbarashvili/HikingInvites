@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\HikingInvites.bundle.scp.css"
     },
     {
+      "Id": "F:\\random shit\\random projects\\ASP.NET core\\HikingPage\\HikingInvites\\wwwroot\\css\\Thanks.css",
+      "PackagePath": "staticwebassets\\css\\Thanks.css"
+    },
+    {
       "Id": "F:\\random shit\\random projects\\ASP.NET core\\HikingPage\\HikingInvites\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

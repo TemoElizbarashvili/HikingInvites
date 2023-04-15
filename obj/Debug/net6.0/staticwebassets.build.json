@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EltGS8Mhtc64jqxESCWxJkophwY01DSuJUez8W5WEWM=",
+  "Hash": "6ueaLNpELUvJIJOu91rkmDadT41cJWs3a6Jl+TFWXtI=",
   "Source": "HikingInvites",
   "BasePath": "_content/HikingInvites",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "F:\\random shit\\random projects\\ASP.NET core\\HikingPage\\HikingInvites\\wwwroot\\css\\Thanks.css",
+      "SourceId": "HikingInvites",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\random shit\\random projects\\ASP.NET core\\HikingPage\\HikingInvites\\wwwroot\\",
+      "BasePath": "_content/HikingInvites",
+      "RelativePath": "css/Thanks.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Thanks.css"
     },
     {
       "Identity": "F:\\random shit\\random projects\\ASP.NET core\\HikingPage\\HikingInvites\\wwwroot\\favicon.ico",
