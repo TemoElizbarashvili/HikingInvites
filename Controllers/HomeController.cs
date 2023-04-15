@@ -18,8 +18,21 @@ namespace PartyInvites.Controllers
         [HttpPost]
         public ViewResult RsvpForm(UserResponse userResponse)
         {
-            Repository.AddResponse(userResponse);
-            return View("Thanks", userResponse);
+            if (ModelState.IsValid)
+            {
+                Repository.AddResponse(userResponse);
+                return View("Thanks", userResponse);
+            }
+            else
+            {
+                return View();
+            }
+        }
+
+
+        public ViewResult ListResponses()
+        {
+            return View(Repository.UserResponses);
         }
 
     }

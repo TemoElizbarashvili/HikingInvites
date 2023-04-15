@@ -135,6 +135,8 @@ footer p {
     font-size: 14px;
 }
 
+/*----------------Validations css-----------*/
+
 form {
     width: 80%;
     margin: 0 auto;
@@ -181,4 +183,28 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #007FFF;
+}
+
+   
+
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
 }

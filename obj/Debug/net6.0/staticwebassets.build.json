@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6ueaLNpELUvJIJOu91rkmDadT41cJWs3a6Jl+TFWXtI=",
+  "Hash": "Cs83nilYCXg376SFvSlXjj1wxDgMm+jALkVswvrllB8=",
   "Source": "HikingInvites",
   "BasePath": "_content/HikingInvites",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\random shit\\random projects\\ASP.NET core\\HikingPage\\HikingInvites\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HikingInvites.bundle.scp.css"
+    },
+    {
+      "Identity": "F:\\random shit\\random projects\\ASP.NET core\\HikingPage\\HikingInvites\\wwwroot\\css\\lux.css",
+      "SourceId": "HikingInvites",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\random shit\\random projects\\ASP.NET core\\HikingPage\\HikingInvites\\wwwroot\\",
+      "BasePath": "_content/HikingInvites",
+      "RelativePath": "css/lux.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\lux.css"
     },
     {
       "Identity": "F:\\random shit\\random projects\\ASP.NET core\\HikingPage\\HikingInvites\\wwwroot\\css\\site.css",

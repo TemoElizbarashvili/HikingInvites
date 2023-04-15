@@ -1,0 +1,35 @@
+﻿@model IEnumerable<HikingInvites.Models.UserResponse>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Responses</title>
+    <link rel="stylesheet" href="~/css/lux.css" />
+</head>
+<body>
+    <div class="text-center p-2">
+        <h2 class="text-center">
+            Here is the list of people attending the hike this month:
+        </h2>
+        <table class="table table-bordered table-striped table-sm">
+            <thead>
+                <tr><th>Name</th><th>Email</th><th>Phone</th><th>Location</th></tr>
+            </thead>
+            <tbody>
+                @foreach (HikingInvites.Models.UserResponse r in Model!)
+                {
+                    <tr>
+                        <td>@r.Name</td>
+                        <td>@r.Email</td>
+                        <td>@r.Phone</td>
+                        <td>@r.Location</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
